@@ -54,6 +54,7 @@ namespace ExtloadOdms
                 " INSERT INTO Property(PropertyID, ClassID, rdf_ID, rdfs_label, rdfs_comment, rdfs_domain, rdfs_range, cims_multiplicity, cims_inverseRoleName) " +
                 " \n VALUES(‘rdf4’, ‘rdf5’, '{1}.{0}', '{0}', '{0} contained in {1}', '{1}', '{0}', 'M:0..1', '{0}.{1}')" ;
 
+            // And here is a third change for the SeondMasterBranch3 branch
 
         Console.WriteLine(Composit1,"AEP_ACLineSegment", "baseKVPU","ACLineSegment", "Package_AEP", "AEP_ACLineSegment"  );
         Console.ReadLine();
